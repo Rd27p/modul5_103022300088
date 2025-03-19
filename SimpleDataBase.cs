@@ -30,15 +30,4 @@ namespace modul5_103022300088
             }
         }
     }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            SimpleDataBase<int> db = new SimpleDataBase<int>();
-            db.addNewData(12);
-            db.addNewData(34);
-            db.addNewData(56);
-            db.showAllData();
-        }
-    }
 }

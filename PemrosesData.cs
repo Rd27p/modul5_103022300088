@@ -14,7 +14,7 @@ namespace modul5_103022300088
             dynamic nilai2 = (dynamic)Nilai2;
             dynamic nilai3 = (dynamic)Nilai3;
 
-            if(nilai1 > nilai2 && nilai1 > nilai3)
+            if (nilai1 > nilai2 && nilai1 > nilai3)
             {
                 Console.WriteLine("Nilai terbesar adalah : " + nilai1);
             }
@@ -25,13 +25,7 @@ namespace modul5_103022300088
             if (nilai3 > nilai1 && nilai3 > nilai2)
             {
                 Console.WriteLine("Nilai terbesar adalah : " + nilai3);
-            }   
+            }
         }
-        static void Main(string[] args)
-        {
-            PemrosesData pemrosesData = new PemrosesData();
-            pemrosesData.DapatkanNilaiTerbesar<int>(10, 30, 22);
-        }
-
     }
 }
