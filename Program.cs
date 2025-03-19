@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿
+=======
+﻿
+>>>>>>> implementasi-generic-class
